@@ -1,0 +1,64 @@
+body{
+    background: rgb(255, 255, 255);
+    font-family: georgia, Times, serif;
+    color: rgb(50, 94, 164);
+    font-size: 1.0rem;
+    line-height: 1.6em;
+    margin: 0;
+}
+h1{
+    font-size: 2rem;
+    line-height: 1.3em;
+}
+
+p{
+    margin-bottom: 1.6em;
+}
+.container{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+.header{
+    background: rgb(2, 1, 1);
+    color: white;
+   
+    
+}
+.header a {
+    color: white;
+    text-decoration: none;
+}
+.nav-container{
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    letter-spacing: 15px;
+    font-size: 1.3em;
+}
+.navigation ul{
+    margin: 0;
+    padding: 0;
+   
+    list-style: none;
+}
+.navigation ul li{
+    display: inline-block;
+}
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+.navigation ul li a:hover{
+    background-color: rgb(112, 112, 112);
+}
+.footer {
+    background: rgb(4, 4, 10);
+    padding: 0.5rem 0;
+    text-align: center;
+}

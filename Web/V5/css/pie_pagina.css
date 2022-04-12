@@ -1,0 +1,46 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.container-body{
+	width: 100%;
+	max-width: 1000PX;
+	padding: 10px;
+	margin: 0 90px;
+}
+
+.container-body{
+	display: flex;
+}
+
+.colum1{
+	max-width: 600px;
+}
+
+.colum1 h3{
+	font-size: 20px;
+}
+
+.colum1 > .row{
+	padding: 0px;
+	margin: 0px;
+	margin-top: 20px;
+	display: flex;
+}
+
+.colum2{
+	max-width: 600px;
+}
+
+.colum2 h3{
+	font-size: 20px;
+}
+
+.colum2 > .row2{
+	padding: 0px;
+	margin: 0px;
+	margin-top: 20px;
+	display: flex;
+}

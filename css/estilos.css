@@ -1,0 +1,32 @@
+h2{
+	background: rgb(197, 183, 177);
+	color:#000;
+	height: 50%;
+	width: 20%;
+	padding: 20px;
+	border:2px solid blue;
+	margin: 30px
+}
+
+li{
+	background: rgb(27, 0, 53);
+	color:#000;
+	height: 50%;
+	width: 20%;
+	padding: 20px;
+	border:2px solid blue;
+	margin: 30px
+}
+
+h1{
+   margin: 89;
+   padding: 5;
+   box-sizing: border-box;
+}
+   .form-register {
+	width 400px;
+	background: 30px;
+	margin: auto;
+	margin-top: 100px:
+
+   }

@@ -1,0 +1,69 @@
+body{
+	font-family: 'Georgia';
+}
+
+article h2,h3{
+	color: rgb(10, 10, 10);
+	text-align: center;
+	font-style: helvetica;
+}
+
+.articulo p{
+	text-align: left;
+	font-style: normal;
+	font-size: medium;
+	font-family: 'Roboto', sans-serif;
+}
+
+.titan img{
+	width: 350px;
+	height: 200px;
+	max-width: 250px;
+
+}
+
+.Hombre h1{
+	font-size: 22px;
+	font-size: 150%;
+	text-align: center;
+	font-style: italic;
+	color: #7c898a;
+}
+
+.Hombre > .titan{
+	display: flex;
+}
+
+.Hombre{
+	background: white;
+	padding: 5px ;
+	color:black;
+	font-style: normal;
+	font-family: Georgia,Helvetica, sans-serif; 
+}
+
+.Mujer h1{
+	font-size: 22px;
+	font-size: 150%;
+	text-align: center;
+	font-style: italic;
+	color: #b8d6d8;
+}
+
+.Mujer > .titan{
+	display: flex;
+}
+
+.Mujer{
+	padding: 5px ;
+	color:black;
+	font-style: normal;
+	font-family: Georgia,Helvetica, sans-serif; 
+	background: #e2123f;  
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, hsla(330, 33%, 99%, 0.681), hsla(162, 39%, 63%, 0.769), hsla(187, 100%, 50%, 0.749));  
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, hsla(340, 82%, 52%, 0.681), hsla(45, 100%, 51%, 0.769), hsla(156, 100%, 50%, 0.749));
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}

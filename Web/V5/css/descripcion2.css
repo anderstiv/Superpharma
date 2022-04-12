@@ -1,0 +1,76 @@
+body{
+	font-family: 'Georgia';
+}
+
+article h2,h3{
+	color: black;
+	text-align: center;
+	font-style: italic;
+}
+
+.articulo p{
+	text-align: left;
+	font-style: normal;
+	font-size: medium;
+	font-family: 'Roboto', sans-serif;
+}
+
+.dios img{
+	width: 350px;
+	height: 200px;
+	max-width: 200px;
+
+}
+
+.Mujer h1{
+	font-size: 22px;
+	font-size: 150%;
+	text-align: center;
+	font-style: italic;
+	color: black;
+	background: #00F260;  
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #0575E6, #00F260);  
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #0575E6, #00F260); 
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.Mujer > .dios{
+	display: flex;
+}
+
+.Mujer{
+	background: white;
+	padding: 5px ;
+	color:black;
+	font-style: normal;
+	font-family: Georgia,Helvetica, sans-serif; 
+}
+
+.Hombre h1{
+	font-size: 22px;
+	font-size: 150%;
+	text-align: center;
+	font-style: italic;
+	color: black;
+	background: #00F260;  
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #0575E6, #00F260);  
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #0575E6, #00F260); 
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.Hombre > .dios{
+	display: flex;
+}
+
+.Hombre{
+	background: white;
+	padding: 5px ;
+	color:black;
+	font-style: normal;
+	font-family: Georgia,Helvetica, sans-serif; 
+}

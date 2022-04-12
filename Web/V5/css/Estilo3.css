@@ -1,0 +1,126 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+.h1{
+	padding: 20px 0;
+	text-align: center;
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+
+.titulo-principal{
+	background: white;
+	width: 80%;
+	max-width: 90%;
+	margin: 0.5em auto;
+	display: grid;
+	grap:1em;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-areas:
+	"header header"
+	"nav nav"
+	"aside main"
+	"footer footer"
+}
+
+.titulo-principal *{
+	border: 1px;
+	padding: 20px;
+	
+}
+
+.titulo-principal > .Semidioses > .portafolio *{
+	border: 1px;
+	padding: 5px;
+	
+}
+
+.titulo-principal > .titulo{
+	padding: 60px;
+	grid-column: 1/7;
+	height: 300px;
+	text-align: center;
+	/* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(199, 98%, 48%, 0.681), hsla(262, 47%, 55%, 0.769), hsla(168, 55%, 54%, 0.749), hsla(340, 82%, 52%, 0.874)), url(../Img/portada.jpg);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(199, 98%, 48%, 0.681), hsla(262, 47%, 55%, 0.769), hsla(168, 55%, 54%, 0.749), hsla(340, 82%, 52%, 0.874)), url(../Img/portada.jpg); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+
+.titulo-principal > .Semidioses{
+	grid-column: 1/5;
+	align-items: center;
+}
+
+.titulo-principal > .Semidioses img{
+	width: 300px;
+	height: 300px;
+}
+
+.titulo-principal > .Semidioses h2{
+	text-align: center;
+	font-style: italic;
+}
+
+.titulo-principal > .barra_derecha{
+	grid-column: span 2;
+	background: #8fccf0;
+	color:black;
+	display:flex; 
+	flex-direction: column;
+	align-items: center;
+	font-style: normal;
+	font-family: Georgia,Helvetica, sans-serif;
+}
+
+.titulo-principal > .barra_derecha h1{
+	font-style: italic;
+	text-align: center;
+}
+
+.titulo-principal > .barra_derecha img{
+	width: 300px;
+	height: 200px;
+}
+
+.indice{
+	margin: 10px auto
+	width: 400px;
+}
+
+table{
+	width:60%;
+	background-color: white; 
+	border-collapse: collapse;
+}
+
+.indice td,th{
+	padding: 10px;
+}
+
+.indice thead{
+	background-color: #64B5F6;
+	border: solid 1px black;
+	color: #1565C0;
+	font-size: large;
+	text-align: center;
+}
+
+.indice tr:nth-child(even){
+	background-color: #BFC9CA;
+}
+
+.indice thead:hover{
+	background: #D81B60;
+	color: white;
+}
+
+.indice td:hover{
+	background: #9575CD;
+}

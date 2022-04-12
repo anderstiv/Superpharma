@@ -1,0 +1,96 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Georgia';
+}
+
+.contenedor{
+	width: 100%;
+	max-width: 1200PX;
+	margin: auto;
+}
+
+.contenedor h3{
+	text-align: center;
+	font-style: italic;
+	font-size: 25px; 
+}
+
+.contenedor p{
+	text-align: center; 
+}
+
+.primera-fila:hover{
+	color: black;
+	background: #0F2027;  
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, hsla(210, 29%, 21%, 0.820), hsla(210, 14%, 39%, 0.820), hsla(210, 29%, 13%, 0.820)); 
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, hsla(210, 29%, 21%, 0.820), hsla(210, 14%, 39%, 0.820), hsla(210, 29%, 13%, 0.820));
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.segunda-fila:hover{
+	color: black;
+	background: #0F2027;  
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, hsla(210, 29%, 21%, 0.820), hsla(210, 14%, 39%, 0.820), hsla(210, 29%, 13%, 0.820));  
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, hsla(210, 29%, 21%, 0.820), hsla(210, 14%, 39%, 0.820), hsla(210, 29%, 13%, 0.820)); 
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.contenedor{
+	display: flex;
+}
+.portafolio{
+	background-color: white;
+}
+
+.imagen-criatura img{
+	width: 300%;
+	height: 300%;
+	object-fit: cover;
+	display: block;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.primera-columna{
+	max-width: 600px;
+}
+
+.primera-columna h1{
+	font-size: 22px;
+	font-size: 150%;
+}
+
+.primera-columna > .primera-fila{
+	margin-top: 20px;
+	display: flex;
+}
+
+.segunda-columna{
+	max-width: 600px;
+}
+
+.segunda-columna h1{
+	font-size: 22px;
+	font-size: 150%;
+}
+
+.segunda-columna > .segunda-fila{
+	margin-top: 20px;
+	display: flex;
+}
+
+
+
+
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/formulario.css">
+	<link rel="stylesheet" href="css/menu1.css">
+	<link rel="stylesheet" href="style.css">
+	<title>Ingresar</title>
+</head>
+<body>
+	<nav class="encabezado">
+				<div class="contenido">
+				<label for="" class="icon-power">Drogueria Superpharma</label>
+					<ul class="indice">
+						<li><a href="Superpharma 1.html">Volver a inicio</a></li>
+						</ul>
+				</div>
+	</nav>
+	<div style="color: black; border: 3px solid #6cc1d6 ; background-color: #7493b9; font-size: 20px;">
+		<legend>
+			<center>
+			<h5>Selecciona tipo de documento</h5>
+		</legend>
+		
+		<select name="listas2" id="lista2">
+            <option value="x" selected="selected">...</option>
+            <option value="15">Cedula de ciudadania</option>
+            <option value="15">Tarjeta de identidad</option>
+            <option value="15">Cedula de extranjeria</option>
+        </select>
+		<section>
+			<form action="data3.php">
+			<h5>Numero de documento:</h5>
+			<input type="number" name="Numero" size="20"> <br>
+		</section> <br>
+	<section>
+		<form action="data3.php">
+		<h5>Ingresa tu contraseña:</h5>
+		<input type="password" name="contraseña" size="20"><br>
+	</section> <br>
+		<blockquote>
+				<h5>¿Quien eres?</h5>
+				<label for="Pelicula"></label>
+				<input type="radio" name="pelicula" id="pelicula" value="1"> Administrador<br>
+				<input type="radio" name="pelicula" id="pelicula" value="2"> Empleado<br>
+				<br>
+
+			</center>
+		</blockquote>
+	<center><br><br>
+		<input type="submit" value="ENVIAR">
+		<input type="reset" value="LIMPIAR"> <br><br>
+	</center>
+</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,110 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+.h1{
+	padding: 20px 0;
+	text-align: center;
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+
+.titulo-principal{
+	background: white;
+	width: 80%;
+	max-width: 90%;
+	margin: 0.5em auto;
+	display: grid;
+	grap:1em;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-areas:
+	"header header"
+	"nav nav"
+	"main aside"
+	"footer footer"
+}
+
+.titulo-principal *{
+	border: 1px;
+	padding: 20px;
+	
+}
+
+.titulo-principal > .titulo{
+	padding: 60px;
+	grid-column: 1/7;
+	height: 300px;
+	text-align: center;
+	/* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(199, 98%, 48%, 0.681), hsla(262, 47%, 55%, 0.769), hsla(168, 55%, 54%, 0.749), hsla(340, 82%, 52%, 0.874)), url(../Img/portada.jpg);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(199, 98%, 48%, 0.681), hsla(262, 47%, 55%, 0.769), hsla(168, 55%, 54%, 0.749), hsla(340, 82%, 52%, 0.874)), url(../Img/portada.jpg); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-size: cover;
+	background-attachment: fixed;	
+}
+
+
+
+.titulo-principal > .ninfas{
+	grid-column: 1/5;
+	font-family: Georgia,Helvetica, sans-serif;
+}
+
+.titulo-principal > .ninfas h2,h3{
+	text-align: center;
+	font-style: italic;
+}
+
+.titulo-principal > .barra_derecha{
+	grid-column: span 2;
+	background: #03A9F4;
+	color:black;
+	display:flex; 
+	flex-direction: column;
+	align-items: center;
+	font-style: normal;
+	font-family: Georgia,Helvetica, sans-serif;
+}
+
+.titulo-principal > .barra_derecha h1{
+	font-style: italic;
+	text-align: center;
+}
+
+.titulo-principal > .barra_derecha img{
+	width: 300px;
+	height: 300px;
+}
+
+
+
+/*main*/
+.imagen1{
+	width: 300px;
+	height: 350px;
+}
+
+.imagen2{
+	width: 500px;
+	height: 350px;
+}
+
+.ninfas1 h3{
+	background: #dd3e54;  
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right,  #29B6F6, #EC407A, #58D68D);  
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right,  #29B6F6, #EC407A, #58D68D); 
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-size: 30px;
+}
+
+
+
+.ninfas1 h4{
+	text-decoration: underline;
+	font-size: 20px;
+}

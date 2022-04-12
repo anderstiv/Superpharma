@@ -1,0 +1,63 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Georgia';
+}
+
+.contenedor{
+	width: 100%;
+	max-width: 1100PX;
+	margin: auto;
+}
+
+.contenedor h3{
+	text-align: center;
+	font-style: italic;
+	font-size: 25px; 
+}
+
+.contenedor p{
+	text-align: left; 
+}
+
+
+.contenedor{
+	display: flex;
+}
+.portafolio{
+	background-color: white;
+	text-align: center;
+}
+
+.columna1{
+	max-width: 300px;
+}
+
+.columna1 > .fila1{
+	display: flex;
+}
+
+.columna2{
+	max-width: 300px;
+}
+
+
+.columna2 > .fila2{
+	display: flex;
+}
+
+
+.seccion:hover{
+	background: #c31432;  
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #240b36, #c31432);  
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #240b36, #c31432); 
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color:#979A9A;
+
+}

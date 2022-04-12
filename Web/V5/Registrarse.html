@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/formulario.css">
+	<link rel="stylesheet" href="css/menu1.css">
+	<link rel="stylesheet" href="style.css">
+	<title>Registrarse</title>
+</head>
+<body>
+	<nav class="encabezado">
+				<div class="contenido">
+				<label for="" class="icon-power">Drogueria Superpharma</label>
+					<ul class="indice">
+						<li><a href="Superpharma 1.html">Volver a inicio</a></li>
+						</ul>
+				</div>
+	</nav>
+	<div style="color: black; border: 3px solid #6cc1d6 ; background-color: #5f8abc; font-size: 20px;">
+		<legend>
+			<h5>Selecciona tipo de documento</h5>
+		</legend>
+		<select name="listas2" id="lista2">
+            <option value="x" selected="selected">...</option>
+            <option value="15">Cedula de ciudadania</option>
+            <option value="15">Tarjeta de identidad</option>
+            <option value="15">Cedula de extranjeria</option>
+        </select>
+		<section>
+			<form action="data3.php">
+			<h5>Numero de documento:</h5>
+			<input type="number" name="Numero" size="20"> <br>
+		</section> <br>
+        <section>
+			<form action="data3.php">
+			<h5>Nombre completo:</h5>
+			<input type="text" name="text" size="60"><br>
+		</section> <br>
+        <section>
+			<form action="data3.php">
+			<h5>Fecha de ingreso:</h5>
+			<input type="date" name="date" size="20"><br>
+		</section> <br>
+		<section>
+			<form action="data3.php">
+			<h5>Numero de contacto:</h5>
+			<input type="number" name="Numero" size="20"><br>
+		</section> <br>
+        <blockquote>
+            <h5>Seleccione cargo</h5>
+            <label for="Pelicula"></label>
+            <input type="radio" name="pelicula" id="pelicula" value="1"> Vendedor<br>
+            <input type="radio" name="pelicula" id="pelicula" value="2"> Administrador<br>
+            <br>
+    </blockquote>
+    <section>
+        <form action="data3.php">
+        <h5>Ingrese su RH:</h5>
+        <input type="text" name="text" size="20"><br>
+    </section> <br>
+    <section>
+        <form action="data3.php">
+        <h5>Ingrese su ARL:</h5>
+        <input type="text" name="text" size="60"><br>
+    </section> <br>
+    <section>
+        <form action="data3.php">
+        <h5>Ingrese su correo:</h5>
+        <input type="email" name="email" size="60"><br>
+    </section> <br>
+	<section>
+        <form action="data3.php">
+        <h5>Numero contacto de emergencia:</h5>
+        <input type="number" name="number" size="20"><br>
+    </section> <br>
+
+	<center><br><br>
+		<input type="submit" value="ENVIAR">
+		<input type="reset" value="LIMPIAR"> <br><br>
+	</center>
+</form>
+	</div>
+</body>
+</html>
